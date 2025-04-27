@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".environment", ".environment", "{5C631491-0682-4FEA-9E6D-FC99FBBB2C83}"
+	ProjectSection(SolutionItems) = preProject
+		..\.secrets.cfg = ..\.secrets.cfg
+		..\.gitignore = ..\.gitignore
+		..\Directory.Packages.props = ..\Directory.Packages.props
+		..\Directory.Build.props = ..\Directory.Build.props
+		..\Directory.Build.targets = ..\Directory.Build.targets
+		..\settings.cfg = ..\settings.cfg
+		..\.env = ..\.env
+		..\global.json = ..\global.json
+		..\nuget.config = ..\nuget.config
+		..\paket.dependencies = ..\paket.dependencies
+		..\PublicAssembly.props = ..\PublicAssembly.props
+		..\paket.lock = ..\paket.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".resources", ".resources", "{4B854023-51AF-4C87-846F-245C12CF383D}"
+	ProjectSection(SolutionItems) = preProject
+		..\CHANGES.md = ..\CHANGES.md
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+		..\docker\docker-compose.yaml = ..\docker\docker-compose.yaml
+		..\docker\default.dockerfile = ..\docker\default.dockerfile
+		..\docker\envoy.yaml = ..\docker\envoy.yaml
+		..\docker\.env = ..\docker\.env
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_build", "..\.nuke\build\_build.csproj", "{A07D3FA0-F473-4C7B-A29C-87A53196F734}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K4os.Orleans.Streaming.Redis", "K4os.Orleans.Streaming.Redis\K4os.Orleans.Streaming.Redis.csproj", "{9B9A3CD7-45EF-4916-9BA2-6BFBF23F0912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K4os.Orleans.Streaming.Redis.Tests", "K4os.Orleans.Streaming.Redis.Tests\K4os.Orleans.Streaming.Redis.Tests.csproj", "{86EE01FD-79CA-47E3-B342-DBF6F9B8DECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K4os.Orleans.Streaming.Redis.App", "K4os.Orleans.Streaming.Redis.App\K4os.Orleans.Streaming.Redis.App.csproj", "{83766731-6C9F-4CA1-8647-18260F2D455F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B9A3CD7-45EF-4916-9BA2-6BFBF23F0912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9A3CD7-45EF-4916-9BA2-6BFBF23F0912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9A3CD7-45EF-4916-9BA2-6BFBF23F0912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9A3CD7-45EF-4916-9BA2-6BFBF23F0912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86EE01FD-79CA-47E3-B342-DBF6F9B8DECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86EE01FD-79CA-47E3-B342-DBF6F9B8DECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86EE01FD-79CA-47E3-B342-DBF6F9B8DECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86EE01FD-79CA-47E3-B342-DBF6F9B8DECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83766731-6C9F-4CA1-8647-18260F2D455F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83766731-6C9F-4CA1-8647-18260F2D455F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83766731-6C9F-4CA1-8647-18260F2D455F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83766731-6C9F-4CA1-8647-18260F2D455F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07D3FA0-F473-4C7B-A29C-87A53196F734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07D3FA0-F473-4C7B-A29C-87A53196F734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73586AB7-999C-4885-86D0-7814D957CEAA}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
