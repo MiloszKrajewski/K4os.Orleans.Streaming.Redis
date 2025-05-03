@@ -3,7 +3,7 @@
   "isRoot": true,
   "tools": {
     "run-script": {
-      "version": "0.5.0",
+      "version": "0.6.0",
       "commands": [
         "r"
       ],
@@ -17,7 +17,7 @@
       "rollForward": false
     },
     "paket": {
-      "version": "8.0.3",
+      "version": "9.0.2",
       "commands": [
         "paket"
       ],
